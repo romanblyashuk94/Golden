@@ -129,6 +129,11 @@ section {
 .header .nav .menu li a {
   color: #fff;
   text-transform: uppercase;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.header .nav .menu li a:hover {
+  text-decoration: underline;
 }
 .header .header-title {
   padding: 200px 0 0 0;
@@ -151,12 +156,18 @@ section {
   font-size: 18px;
   font-weight: 700;
   background: #FED136;
-  border: 1px solid #FED136;
   border-radius: 2px;
   width: 241px;
   color: #484543;
   line-height: 66px;
   margin: 0 348px 0 342px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.header .header-title .btn:hover {
+  background: #fff;
+  -webkit-box-shadow: 1px 1px 15px #FED136;
+          box-shadow: 1px 1px 15px #FED136;
 }
 
 .services .columns {
@@ -212,6 +223,8 @@ section {
 }
 .about .about__row .about__item_1 {
   margin-bottom: 93px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 .about .about__row .about__item_1:last-child {
   margin-bottom: 0;
@@ -237,6 +250,11 @@ section {
 }
 .about .about__row .about__item_1 .about__img {
   margin: 0 0 0 38px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.about .about__row .about__item_1 .about__img:hover {
+  margin: 0;
 }
 .about .about__row .about__item_2 {
   padding-left: 378px;
@@ -264,6 +282,11 @@ section {
 }
 .about .about__row .about__item_2 .about__img {
   margin: 0 38px 0 0;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.about .about__row .about__item_2 .about__img:hover {
+  margin: 0;
 }
 
 .credits {

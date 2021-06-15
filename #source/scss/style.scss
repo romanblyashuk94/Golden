@@ -42,6 +42,11 @@ section {
                 a {
                     color: #fff;
                     text-transform: uppercase;
+                    transition: all 0.5s ease;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+
                 }
             } 
         }
@@ -66,12 +71,16 @@ section {
             font-size: 18px;
             font-weight: 700;
             background: #FED136;
-            border: 1px solid #FED136;
             border-radius: 2px;
             width: 241px;
             color:#484543;
             line-height: 66px;
             margin: 0 348px 0 342px;
+            transition: all 0.5s ease;
+            &:hover {
+                background: #fff;
+                box-shadow: 1px 1px 15px #FED136;
+            }
         }
     }
 }
@@ -126,7 +135,8 @@ section {
     .about__row {
         padding: 77px 0 0 0;
         .about__item_1 { 
-            margin-bottom: 93px; 
+            margin-bottom: 93px;
+            transition: all 0.5s ease;
             &:last-child {
                 margin-bottom: 0; 
             }    
@@ -152,6 +162,10 @@ section {
             }
             .about__img {
                 margin: 0 0 0 38px;
+                transition: all 0.5s ease;
+                &:hover {
+                    margin: 0;
+                }
             }
 
         }
@@ -181,6 +195,10 @@ section {
             }
             .about__img {
                 margin: 0 38px 0 0;
+                transition: all 0.5s ease;
+                &:hover {
+                    margin: 0;
+                }
             }
         }
     }
